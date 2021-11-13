@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="viewTableContext" prefHeight="890.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewTableFormController">
+   <children>
+      <AnchorPane layoutX="435.0" layoutY="23.0" prefHeight="844.0" prefWidth="851.0" style="-fx-background-color: #833471;">
+         <children>
+            <ImageView fitHeight="371.0" fitWidth="553.0" layoutX="213.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image2.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="70.0" layoutY="29.0" text="Detail Sheet" textFill="#ddb8b8">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Separator layoutX="260.0" layoutY="52.0" prefHeight="2.0" prefWidth="586.0" />
+            <FontAwesomeIcon fill="#ebe7e7" glyphName="PENCIL" layoutX="25.0" layoutY="65.0" size="1.7em" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="380.0" layoutY="483.0" prefHeight="38.0" prefWidth="447.0" text="Number of Drivers : 16 " textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="491.0" prefHeight="39.0" prefWidth="276.0" text="Number of Slots: 14" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="578.0" text="Slot Numbers for Van  :  1, 2, 3, 4, 12, 13 " textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="666.0" text="Slot Numbers for Lorry  :   5, 6, 7, 8, 9, 10, 11 " textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="70.0" layoutY="755.0" text="Slot Number for Bus  :  14 " textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="27.0" />
+               </font>
+            </Label>
+            <FontAwesomeIcon fill="WHITE" glyphName="CIRCLE" layoutX="58.0" layoutY="515.0" size="0.9em" />
+            <FontAwesomeIcon fill="WHITE" glyphName="CIRCLE" layoutX="523.0" layoutY="508.0" size="0.9em" />
+         </children>
+      </AnchorPane>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="385.0" onAction="#openAddVehicleWindow" prefHeight="72.0" prefWidth="276.0" style="-fx-background-color: #3B3B98;" text="Add Vehicle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="568.0" onAction="#openAddDriverWindow" prefHeight="72.0" prefWidth="276.0" style="-fx-background-color: #3B3B98;" text="Add Driver" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="732.0" onAction="#logOutOnAction" prefHeight="72.0" prefWidth="276.0" style="-fx-background-color: #1B9CFC;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="56.0" onAction="#addDetailParking" prefHeight="72.0" prefWidth="276.0" style="-fx-background-color: #218c73;" text="View In Parking Table" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="214.0" onAction="#addOnDeliveryDetail" prefHeight="72.0" prefWidth="276.0" style="-fx-background-color: #218c73;" text="View On Delivery Table" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
