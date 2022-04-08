@@ -20,7 +20,7 @@ Main Functions are,
  
  Select Parking Slot<hr> 
  <div align="center">
- <img src="https://user-images.githubusercontent.com/90234105/153487795-c0c0f9a2-23fa-4642-99fc-d5b61a0bb256.png" width=70% height=40%>4
+ <img src="https://user-images.githubusercontent.com/90234105/153487795-c0c0f9a2-23fa-4642-99fc-d5b61a0bb256.png" width=70% height=40%>
  </div>
  <br>
  
